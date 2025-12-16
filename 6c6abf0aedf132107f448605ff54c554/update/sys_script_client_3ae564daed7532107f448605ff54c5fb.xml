@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Fill Basic Info</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   var previousValue = g_form.getValue('item_name');
+   if (previousValue === undefined || previousValue === '' || previousValue.trim() === '') {
+	g_form.setValue('item_name', g_user.firstName + "'s <item name>");
+	g_form.showFieldMsg('item_name', 'Field auto filled. Please edit <item name>');
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 19:24:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ae564daed7532107f448605ff54c5fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fill Basic Info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">6c6abf0aedf132107f448605ff54c554</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6c6abf0aedf132107f448605ff54c554</sys_scope>
+        <sys_update_name>sys_script_client_3ae564daed7532107f448605ff54c5fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 19:28:55</sys_updated_on>
+        <table>x_cdltd_loaner_r_0_loan_item</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
