@@ -2,29 +2,29 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Default access control on x_cdltd_loaner_r_0_loaner_request</description>
+        <description/>
         <local_or_existing>Existing</local_or_existing>
         <name>x_cdltd_loaner_r_0_loaner_request</name>
-        <operation display_value="delete">delete</operation>
-        <script/>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[current.isNewRecord();]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-15 17:14:52</sys_created_on>
-        <sys_id>6998ccd2ed3532107f448605ff54c5e4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2025-12-16 17:34:56</sys_created_on>
+        <sys_id>97561de6653532107f44e40be726399e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_loaner_r_0_loaner_request</sys_name>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">6c6abf0aedf132107f448605ff54c554</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">6c6abf0aedf132107f448605ff54c554</sys_scope>
-        <sys_update_name>sys_security_acl_6998ccd2ed3532107f448605ff54c5e4</sys_update_name>
+        <sys_update_name>sys_security_acl_97561de6653532107f44e40be726399e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-16 17:32:12</sys_updated_on>
+        <sys_updated_on>2025-12-16 17:34:56</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

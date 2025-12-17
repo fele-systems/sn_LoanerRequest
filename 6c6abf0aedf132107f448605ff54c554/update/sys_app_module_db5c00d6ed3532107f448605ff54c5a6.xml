@@ -20,14 +20,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles/>
+        <roles>x_cdltd_loaner_r_0.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 17:31:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db5c00d6ed3532107f448605ff54c5a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">6c6abf0aedf132107f448605ff54c554</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Loaner Request">6c6abf0aedf132107f448605ff54c554</sys_scope>
         <sys_update_name>sys_app_module_db5c00d6ed3532107f448605ff54c5a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-15 17:31:23</sys_updated_on>
+        <sys_updated_on>2025-12-16 17:25:11</sys_updated_on>
         <timeline_page/>
         <title>Closed</title>
         <uncancelable>false</uncancelable>

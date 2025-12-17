@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="02fe5c56ed7532107f448605ff54c50e" label="Loan Item" max_length="40" name="x_cdltd_loaner_r_0_loan_item" type="collection">
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
         <element hint="Name of the item to be loaned" label="Item Name" max_length="60" name="item_name" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
     </element>
 </database>
